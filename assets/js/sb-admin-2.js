@@ -84,7 +84,7 @@
         b = b.split("/");
         //console.log(url);
         //console.log(a[4]+"=="+b[4]);
-        if(a[5]!='' && a[5]==b[5]){
+        if(a[4]!='' && a[4]==b[4]){
           $(this).parent().addClass("active");
         }else{
           $(this).parent().removeClass("active");
